@@ -1,2 +1,2 @@
 # Slider
- slider
+ slider на JS

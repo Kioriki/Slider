@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Yeseva+One&display=swap');
+body{
+    background-color: #131313;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+h1, h3{
+    font-weight: 400;
+}
+h1{
+    font-size: 27px;
+    margin: 0;
+    line-height: 138.6%;
+}
+h3{
+    font-size: 18px;
+    margin: 0;
+    line-height: 138.6%;
+}
+.navigation{
+    display: flex;
+    margin: 107px 190px 45px 626px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.room{
+    text-transform: uppercase;
+    color: #E3B873;
+    font-family: 'Yeseva One', serif;
+}
+.navigation-room{
+    color: rgba(255, 255, 255, 0.30);
+    cursor: pointer;
+}
+.room-info{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 134px 123px 134px;
+    justify-content: space-between;
+}
+.room-img{
+    width: 679px;
+    padding-left: 50px;
+}
+.room-line{
+    width: 92px;
+    border: 1px solid #E3B873;
+    margin-bottom: 18px;
+    padding-left: 40px;
+    flex-shrink: 0;
+}
+.room-main{
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    justify-content: flex-start;
+    width: 253px;
+    margin-bottom: 34px;
+}
+.room-text-main{
+    line-height: 190.96%;
+    margin-bottom: 8px;
+}
+.room-discription{
+    display: flex;
+    flex-wrap: wrap;
+}
+.room-discription-select{
+   width: 50%;
+   flex-wrap: wrap;
+   margin-top: 34px;
+}
+.room-text{
+    line-height: 163.68%;
+    margin-top: 9px;
+}
+.slyder-nav{
+    display: flex;
+    margin-left: 134px;
+    margin-bottom: 129px;
+
+}
+.slyder-dots{
+    display:flex;
+}
+.dot{
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 9px;
+    cursor: pointer;
+}
+.dot:first-child{
+    margin-left: 30px;
+}
+.dot:last-child{
+    margin-right: 30px;
+}
+.navigation-room.active{
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 7px;
+}
+.dot.active{
+   background-color: #fff;
+}
+.slyder-arrow{
+    cursor: pointer;
+}
